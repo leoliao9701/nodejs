@@ -1,7 +1,9 @@
-function sum(n){
-    console.log(sum(1));
-    console.log(sum(2));
-    console.log(sum(3));
-    console.log(sum(10));
-
+var x = 0;
+function sum(x) {
+  var n = 0;
+  while (n < 10) {
+    n++;
+    x += n;
+  }
 }
+console.log(x);
