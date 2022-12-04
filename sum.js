@@ -16,3 +16,22 @@ function sum(n) {
   return sum;
 }
 console.log(sum(10));
+
+console.time('SUM1');
+for(let i = 0; i <=10000; i++){
+    sum(10000);
+    
+}
+console.timeEnd('SUM1')
+
+function multiply(a, b) {
+  return a * b;
+}
+function square(n) {
+  return multiply(n, n);
+}
+function printSquare(n) {
+  let result = square(n);
+  console.log(result);
+}
+printSquare(4);
