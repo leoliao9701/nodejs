@@ -30,3 +30,8 @@ brushPromise
     .catch((err) => {
         console.error('發生錯誤', err);
     });
+
+
+    //1. 題目有沒有想法
+    //   直接copy 加註解
+    //2. 把想法用程式寫出來
